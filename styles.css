@@ -1,10 +1,11 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: var(--main-font);
 }
 
 :root {
     --light-sage: #8fa281;
-    --light-ivory: rgb(253, 245, 231);
+    --light-ivory: #fdf5e7;
     --slate-gray: #69757a;
     --slate-gray-transparent: #69757ae4;
     --main-font: 'Mulish', sans-serif;
@@ -92,7 +93,7 @@ a {
 }
 
 .splash-logo {
-    max-height: 40vh;
+    max-width: 40vh;
 }
 
 .help-quote {
@@ -124,9 +125,72 @@ a {
 
 .button:hover {
     background-color: #a3b994;
-    font-weight: bold;
+}
+
+.get-started-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--slate-gray);
+    min-height: 40vh;
+
+}
+.get-started-section h3 {
+    color: var(--light-ivory);
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+}
+
+.get-started-steps-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-basis: 100%;
+    width: auto;
+}
+
+.get-started-steps-wrapper :nth-child(1) {
+    border-right-color: var(--light-ivory);
+}
+
+.get-started-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    gap: .5rem;
+    color: var(--light-sage);
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(32, 32, 32);
+    min-width: 20vw;
+}
+
+.get-started-step img {
+    max-width: 40px;
+}
+
+.help-para-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
+    background: white;
+    gap: 2rem;
+}
+
+.help-article {
+    max-width: 30vw
 }
 
 .headshot-img {
-    max-width: 200px;
+    max-width: 30vw;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: .25em;
+}
+
+.help-para-title {
+    font-size: 1.5rem;
 }
