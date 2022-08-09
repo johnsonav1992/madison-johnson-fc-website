@@ -1,0 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8fa281;
+}
+
+.logo {
+    max-width: 10vw;
+}
