@@ -267,5 +267,95 @@ a {
     font-weight: bold;
 }
 
+@media (max-width: 850px) {
+    .logo {
+       width: 40px; 
+    }
+    .logo-wrapper {
+        max-width: 45%;
+    }
+
+   .logo-title {
+       font-size: .75rem;
+   } 
+
+   .main-nav a {
+       font-size: .75rem;
+   }
+
+   .main-nav {
+       padding: 10px;
+       gap: .6rem;
+   }
+
+   .help-quote-section {
+    padding: 1rem;
+   }
+
+   .help-quote {
+       font-size: 1.5rem;
+       text-align: center;
+   }
+   
+   .book-now-button {
+       max-width: 100px;
+       font-size: .75rem;
+   }
+
+   .get-started-section {
+       padding: 1rem;
+   }
+
+   .get-started-steps-wrapper p {
+       font-size: .75rem;
+       text-align: center;
+   }
+
+   .help-para-section {
+       flex-direction: column;
+       padding: 1rem;
+       gap: .5rem;
+   }
+   
+   .headshot-img-wrapper {
+       padding: 2rem;
+   }
+
+   .headshot-img {
+       max-width: 300px;
+   }
+
+   .help-article {
+       max-width: 300px;
+   }
+
+   .help-para-title {
+       margin: 0;
+       text-align: center;
+   }
+
+   .book-consult-para {
+       padding: 1rem;
+       text-align: center;
+   }
+
+   .consult-calendar-section {
+       padding: 0;
+   }
+
+   .ramsey {
+       max-width: 100px;
+   }
+
+   .facebook {
+       max-width: 30px;
+   }
+
+   .social-media-area {
+       align-items: flex-end;
+   }
+
+}
+
 
 
