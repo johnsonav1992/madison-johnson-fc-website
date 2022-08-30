@@ -1,6 +1,8 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: var(--main-font);
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
 }
 
 :root {
@@ -9,6 +11,7 @@
     --slate-gray: #69757a;
     --slate-gray-transparent: #69757ae4;
     --main-font: 'Mulish', sans-serif;
+    --header-height: 3.5rem;
 
 }
 
@@ -27,7 +30,7 @@ a {
     justify-content: space-between;
     align-items: center;
     font-family: var(--main-font);
-    height: 3.5rem;
+    height: var(--header-height);
     width: 100vw;
     background-color: var(--slate-gray-transparent);
     position: sticky;
